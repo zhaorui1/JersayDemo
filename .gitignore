@@ -1,12 +1,32 @@
-*.class
+# phpstorm project files
+.idea
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# netbeans project files
+#nbproject
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+/runtime/
+/web/assets/
+/config/scm_config.php
+# windows thumbnail cache
+#Thumbs.db
+
+# composer vendor dir
+#/vendor
+
+# composer itself is not needed
+#composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+#phpunit.phar
+# local phpunit config
+#/phpunit.xml
+target/
+jersay.iml

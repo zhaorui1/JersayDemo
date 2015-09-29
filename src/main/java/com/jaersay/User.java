@@ -1,27 +1,25 @@
 package com.jaersay;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+
 
 
 /**
  * Created by zhaorui on 15/9/28.
  */
-@XmlRootElement
 public class User {
+
     public User(String id, String name, String address, String tel) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.tel = tel;
     }
-    @XmlElement
     private String id;
-    @XmlElement
     private String name;
-    @XmlElement
     private String address;
-    @XmlElement
     private String tel;
+
+    public User() {
+    }
 
     public String getTel() {
         return tel;
